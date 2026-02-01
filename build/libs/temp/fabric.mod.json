@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bowoptimizer",
+  "version": "1.0.0",
+  "name": "Bow Optimizer",
+  "description": "Optimizes bow and crossbow usage for faster client-side firing.",
+  "authors": ["HushedVeilGamer"],
+  "license": "MIT",
+  "environment": "client",
+  "icon": "icon.png",
+  "entrypoints": {
+    "client": [
+      "com.hushedveilgamer.bowoptimizer.BowOptimizerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20"
+  }
+}
